@@ -1,8 +1,11 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
+
+	"github.com/pkg/errors"
 )
 
 func main() {
@@ -13,6 +16,10 @@ func main() {
 }
 
 func run() error {
+	fmt.Println("Hello")
 
+	if 1 == 2 {
+		return errors.New("random error")
+	}
 	return nil
 }
