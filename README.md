@@ -29,7 +29,7 @@ go mod tidy #found the pkg and selected the version
 go env 
 GOPROXY
 
-# gitmvsAlgorithm
+## gitmvsAlgorithm
 - dependency A needs indirect dep.. D
 - D 1.9
 - go.mod of A shares that D 1.2
@@ -45,3 +45,6 @@ GOPROXY
 - scenario : A1.6 -> D1.7
 - NOTE: we only have to test our own test not of dependencies
 - author : likes to get latest of everything
+
+## checksumDB
+GOPRIVATE -> GONOPROXY GONOSUMDB
