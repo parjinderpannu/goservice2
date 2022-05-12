@@ -47,4 +47,12 @@ GOPROXY
 - author : likes to get latest of everything
 
 ## checksumDB
-GOPRIVATE -> GONOPROXY GONOSUMDB
+
+- GOPRIVATE -> GONOPROXY GONOSUMDB
+- checksumdb : something like writeonly and tell write like blockchain
+- mod mirrors tells checksumdb and checksumdb maintain hash code
+
+## majorVersion
+- https://github.com/dimfeld/httptreemux
+- go mod tidy
+- go build main.go

@@ -1,4 +1,9 @@
+3385
 github.com/dimfeld/httptreemux v5.0.1+incompatible h1:Qj3gVcDNoOthBAqftuD596rm4wg/adLLz5xh5CmpiCA=
 github.com/dimfeld/httptreemux v5.0.1+incompatible/go.mod h1:rbUlSV+CCpv/SuqUTP/8Bk2O3LyUV436/yaRGkhP6Z0=
-github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
-github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+
+go.sum database tree
+10534815
+pJjE0URBjChWANNh41LpR1g2OvX8JlN1+dsJQdsMhL4=
+
+— sum.golang.org Az3grgaTdOm2RtKBjya8CwyDOaQx2TcwKX7NdwQpMVZf1HSxqHu3HPWLJccW1rk9uKoOQpbfQjs1tkFxWhEHslF3gQk=
