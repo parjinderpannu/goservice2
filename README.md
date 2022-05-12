@@ -56,3 +56,5 @@ GOPROXY
 - https://github.com/dimfeld/httptreemux
 - go mod tidy
 - go build main.go
+- latest of treemux is 5.4.0 but tooling choose v5.0.1+incompatible
+-- there is no go.mod file in 5.0.1
