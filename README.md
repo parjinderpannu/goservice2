@@ -25,5 +25,23 @@ go mod tidy #found the pkg and selected the version
 - private mod mirrors config: either go to github or some stuff go to google (privacy concern)
 - GOPRIVATE variable 
 - GONOPROXY means don't go to mod mirror but go direct
+
 go env 
 GOPROXY
+
+mvsAlgorithm
+dependency A needs indirect dep.. D
+D 1.9
+go.mod of A shares that D 1.2
+we need to look for go sum mod using cmd: go list mod
+scenario : A1.4 -> D1.2
+scenario : B1.6 -> D1.4
+we have to choose one version of D therefore go choose D1.4
+Remove scenario : B1.6 -> D1.4
+But now we are left with D1.4 not D1.2
+
+what if you want to use D1.9 cmd:: go get to update to latest 
+latest of direct
+scenario : A1.6 -> D1.7
+NOTE: we only have to test our own test not of dependencies
+author : likes to get latest of everything
