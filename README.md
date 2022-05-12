@@ -29,7 +29,7 @@ go mod tidy #found the pkg and selected the version
 go env 
 GOPROXY
 
-mvsAlgorithm
+#gitmvsAlgorithm
 dependency A needs indirect dep.. D
 D 1.9
 go.mod of A shares that D 1.2
